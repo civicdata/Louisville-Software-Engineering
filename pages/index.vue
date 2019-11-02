@@ -1,47 +1,30 @@
 <template>
-
-  <div class="container">
-    <div>
-      <logo />
-      <div class="row">
+<div class="container">
+    <div class="row justify-content-center">
         <div class="col-xs-12">
-              <h1 class="title">
-                Louisville Software Engineering
-              </h1>
-         </div>
-         <div class="col-xs-12">
-          <h2 class="subtitle">
-            site for the LSE networking group
-          </h2>
-          </div>
-      </div>
-
-    <div class="row">
+            <logo />
+        </div>
         <div class="col-xs-12">
-          <div class="googleCalendar">
-                 <iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=Y2l2aWNkYXRhYWxsaWFuY2Uub3JnX3E1Mjhsa3M1aGtsajBmYXFyZ2x2djFubm1vQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23EF6C00&amp;showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;showNav=1&amp;showPrint=0" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-            </div>
+            <h1 class="title text-center">Louisville Software Engineering</h1>
+        </div>
+        <div class="col-xs-12">
+            <h2 class="subtitle text-center">site for the LSE networking group</h2>
         </div>
     </div>
 
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/civicdata/Louisville-Software-Engineering"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+    <div class="row justify-content-center">
+        <div class="col">
+            <div class="googleCalendar">
+                <iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=Y2l2aWNkYXRhYWxsaWFuY2Uub3JnX3E1Mjhsa3M1aGtsajBmYXFyZ2x2djFubm1vQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23EF6C00&amp;showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;showNav=1&amp;showPrint=0" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>
+
+            <div class="links text-center">
+                <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
+                <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
+            </div>
+        </div>
     </div>
-    </div>
+</div>
 </template>
 
 <script>
@@ -53,36 +36,3 @@ export default {
   }
 }
 </script>
-
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>

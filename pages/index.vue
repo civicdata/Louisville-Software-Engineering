@@ -1,14 +1,16 @@
 <template>
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-xs-12">
+        <!-- <div class="col-xs-12">
             <logo />
+
+        </div> -->
+        <div class="col-xs-12">
+            <h1 class="title text-center mt-5 logo-animation">Louisville Software Engineering</h1>
         </div>
         <div class="col-xs-12">
-            <h1 class="title text-center">Louisville Software Engineering</h1>
-        </div>
-        <div class="col-xs-12">
-            <h2 class="subtitle text-center">site for the LSE networking group</h2>
+            <h2 class="subtitle text-center mt-2">site for the LSE networking group. pull requests are necessary, obviously.</h2>
+            <h2 class="subtitle text-center">i mean, y'all cannot just let this incarnation live.</h2>
         </div>
     </div>
 
